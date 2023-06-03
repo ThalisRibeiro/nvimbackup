@@ -9,6 +9,7 @@ vim.keymap.set("n","<C-u>", "<C-u>zz"),
 vim.keymap.set("n","n","nzzzv"),
 vim.keymap.set("n","N","Nzzzv"),
 --Paste without losing the initial copy
-vim.keymap.set("x","<leader>p","\"_dP")
+vim.keymap.set("x","<leader>p","\"_dP"),
+vim.keymap.set("n","<leader>gi","vim.lsp.buf.implementation")
 }
 return M
